@@ -9,7 +9,7 @@
 
   outputs = { self, nixpkgs, flake-utils, rust-overlay, ... }:
   let
-    version = "v1.1.2";
+    version = "v1.2.0";
     overlays = [(import rust-overlay)];
     systems = [ "aarch64-darwin" ];
   in
